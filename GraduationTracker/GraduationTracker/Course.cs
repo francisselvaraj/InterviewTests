@@ -8,9 +8,9 @@ namespace GraduationTracker
 {
     public class Course
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int Mark { get; set; }
-        public int Credits { get; }
+        public int intId { get; set; }
+        public string strName { get; set; }
+        public int intMark { get; set; }
+        public int intCredits { get; }
      }
 }
