@@ -66,9 +66,6 @@ namespace GraduationTracker.Tests.Unit
                     new Course{Id = 4, Name = "Physichal Education", Mark=40 }
                 }
             }
-
-
-            //tracker.HasGraduated()
         };
             
             var graduated = new List<Tuple<bool, STANDING>>();
